@@ -10,7 +10,7 @@ import Latest from './Latest';
 
 function Body() {
 
-    const [standard, setStandard] = useState([1, 3, 6, 7, 8, 9, 10, 5, 34, 2]);
+    const [standard, setStandard] = useState([1, 3, 6, 8, 9, 10, 5, 34, 2]);
     const [novels, setNovels] = useState([2, 3, 2, 2]);
     const [featuredNovels, setFeaturedNovels] = useState([5, 6, 3, 2, 2, 24, 2])
     const [latests, setLatests] = useState([5, 6, 3, 2, 2, 24, 2])
@@ -74,6 +74,7 @@ function Body() {
             </div>
 
             <div className="footer">
+                <h2>Website Footer</h2>
                 Thank you !!
             </div>
 

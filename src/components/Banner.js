@@ -1,7 +1,7 @@
 import React from 'react'
 import './Banner.css';
-import Img from './Image.jpg'
-import Img2 from './image2.png'
+import Img from '../Images/Image.jpg'
+import Img2 from '../Images/image2.png'
 
 
 function Banner() {

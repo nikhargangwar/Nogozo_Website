@@ -7,7 +7,6 @@ import MuiAppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import List from '@mui/material/List';
 import CssBaseline from '@mui/material/CssBaseline';
-import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -19,7 +18,7 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import Banner from './Banner';
-import logo from './logo.png';
+import logo from '../Images/logo.png';
 import './Layout.css';
 import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
@@ -123,10 +122,11 @@ function Layout() {
               edge="start"
               sx={{
                 marginRight: '36px',
-                ...(open && { display: 'none' }),
+                ...(open && { display: 'none' })
+               
               }}
             >
-              <MenuIcon />
+              <MenuIcon   sx={{fill: 'grey'}} />
             </IconButton>
 
             <div className="logo">

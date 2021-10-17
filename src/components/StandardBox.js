@@ -4,7 +4,9 @@ import CardMedia from '@mui/material/CardMedia';
 import { Typography } from '@mui/material';
 import { textAlign } from '@mui/system';
 import './StandardBox.css'
-import Img from './twelth.jpg'
+import Img from '../Images/twelth.jpg'
+
+
 function StandardBox({ standard }) {
 
     return (

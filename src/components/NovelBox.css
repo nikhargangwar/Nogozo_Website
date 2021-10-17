@@ -1,4 +1,16 @@
 .novelBox{
-    align-items: center !important;
-
+    min-width: 230px;
+    
 }
+
+::-webkit-scrollbar {
+    width:0.2px;
+    height: 5px;
+    
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }

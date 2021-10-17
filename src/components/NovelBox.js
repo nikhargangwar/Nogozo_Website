@@ -2,6 +2,7 @@ import React from 'react'
 import './NovelBox.css'
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
+import Img from '../Images/novel3.jpg'
 
 function NovelBox() {
     return (
@@ -11,11 +12,11 @@ function NovelBox() {
                     component="img"
                     height="160"
                     width="600"
-                    image="C:\nikhar\Yash\projects\Nogozo_Website\nogozo\public\Images\KILvnQ.jpg"
+                   image={Img} 
                     alt="green iguana"
                 />
             </Card>
-            
+
         </div>
     )
 }
