@@ -1,0 +1,8 @@
+.StandardBox{
+    align-items: center !important;
+    margin-bottom: 0px;
+} 
+
+.StandardBox >h5{
+    margin-top: 1px;
+}

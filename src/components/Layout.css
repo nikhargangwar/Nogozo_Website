@@ -1,0 +1,29 @@
+.layout{
+    overflow: hidden;
+}
+.logo{
+    display: flex;
+    flex:1;
+    
+}
+
+.logo >img{
+    height: 38px;
+    float: left;
+}
+
+.logo>input{
+    width: 40vw;
+    flex: 0.4;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    background-color:#efefef;
+    margin-right: auto;
+    margin-left: 10%;
+}
+.login_details{
+    display: flex;
+    justify-content:space-between;
+    min-width: 220px;
+}
